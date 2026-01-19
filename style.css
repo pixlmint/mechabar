@@ -18,6 +18,8 @@
 
 #waybar {
 	background-color: @outline;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 #waybar > box {
 	margin: 4px;

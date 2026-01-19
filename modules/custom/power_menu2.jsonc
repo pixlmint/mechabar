@@ -1,0 +1,16 @@
+{
+	"group/power_menu2": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/power_menu",
+            "idle_inhibitor",
+            "backlight",
+            "network",
+            "bluetooth",
+            "custom/system_update"
+        ],
+        "drawer": {
+            "transition-left-to-right": false
+        }
+	}
+}
