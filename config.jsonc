@@ -35,6 +35,7 @@
 		"~/.config/waybar/modules/battery.jsonc",
 		"~/.config/waybar/modules/custom/power_menu.jsonc",
         "~/.config/waybar/modules/custom/power_menu2.jsonc",
+        "~/.config/waybar/modules/custom/powerprofile.jsonc",
 
 		"~/.config/waybar/modules/custom/dividers.jsonc"
 
@@ -50,8 +51,8 @@
 
 	"modules-left": [
 		"hyprland/workspaces",
-		"custom/right_div#1",
-		"hyprland/window"
+		"custom/right_div#1"
+		// "hyprland/window"
 	],
 	"modules-center": [
         "clock#time",
@@ -70,6 +71,7 @@
 		// "backlight",
 		"custom/left_div#8",
 		"battery",
+        "custom/powerprofile",
         // "custom/left_inv#2",
         // "network",
 		// "bluetooth",
